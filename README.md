@@ -6,8 +6,10 @@ a fixed set of options (e.g., spam vs. not spam, or which species a flower belon
 load data, split, train, predict, evaluate — stays the same; only the type of output and the algorithms used are 
 different. 
 
-# Binary classification: exactly two possible classes (e.g., fraud / not fraud). 
-# Multiclass classification: more than two possible classes (e.g., predicting one of three flower species). 
+# Binary classification: 
+exactly two possible classes (e.g., fraud / not fraud). 
+# Multiclass classification:
+more than two possible classes (e.g., predicting one of three flower species). 
 # Logistic Regression 
 Despite the name, Logistic Regression is a classification algorithm, not a regression one. It works by fitting a curve 
 (the sigmoid function) that outputs a probability between 0 and 1 for each class, then assigns the class with the 
